@@ -1,7 +1,10 @@
 java 工具块
+
+
 处理字符串
 
 形如"2019-11-21-汉字.xlsx" 
+
 public static void main(String[] args) {
 		
 		String filename ="2019-11-21-汉字.xlsx";
@@ -17,3 +20,5 @@ public static void main(String[] args) {
 		String date = datestr[0]+"-"+datestr[1]+"-"+datestr[2];
 		System.out.println(date);
 	}
+
+------------------------
